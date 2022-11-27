@@ -1,32 +1,32 @@
-# bouncing-pacman
+# Bouncing Pacman
 
 ## Project Overview
 
-Kafka Producers & Consumers is a series of producers and consumers created with Python, Node.js, and Java. I worked on this project to gain a better understanding of Apache Kafka. Kafka Producers & Consumers lets users to produce and consume messages in a down-resistance and reliable Apache Kafka cluster created with both a replication factor and a partition greater than 1.
+Bouncing Pacman is a game created with javascript and html. Users can add pacman in the screen and start moving them into various directions once they start the game. 
 
-## Project Demo
+## How to Run 
+Simply open the index.html file in any browser to play the game. The "Add Pacman" button adds a new pacman and the "Start Game" button starts moving the existing pacmen.
 
 
-## Scope of Functionality
+## Scope of Funtionality & Improvements Roadmap
 
 The application supports:
- - replication of messages produced into multiple partitions
- - a Java kafka producer that sends formatted messages
- - a Java kafka consumer that consumes messages with auto commit
- - a Java kafka consumer that consumes messages with manual commit
- - a Java kafka consumer that consumes messages from specific partitions
- - a Node.js kafka producer that unlimitedly sends out randomly generated IDs
- - a Node.js kafka consumer that consumes the android IDs
- - a Python kafka producer that sends a batch of 100 fake profiles with features including geolocation, residence, SSN, birthday, email, website url, etc based on user input
- - a Python kafka consumer that reads fake profiles
+ - Animation of pacmen that bounces around in the screen
+ - Addition of new pacmen
+ - Random speed for pacmen's movements
 
-The application does not support:
- - aesthetically pleasing frontend
+Improvements Roadmap:
+ - Termination of the game
+ - deletion of pacmen
+ - User's control of pacmen on the fly
 
 ## Technologies Used
  
- - Apache Kafka: for creating consumers and providing communication between producers and consumers
- - Java & Node.js & Python: for developing producers and consumers
+ - Javascript: For providing animation and creation of pacmen using DOM
+ - HTML: For providing the page where the game happens
+
+## License
+[MIT License](LICENSE)
 
 
 <img src="PacMan1.png">
