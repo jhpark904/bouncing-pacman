@@ -1,5 +1,7 @@
 # Bouncing Pacman
 
+<img src="PacMan1.png">
+
 ## Project Overview
 
 Bouncing Pacman is a game created with javascript and html. Users can add pacman in the screen and start moving them into various directions once they start the game. 
@@ -27,6 +29,3 @@ Improvements Roadmap:
 
 ## License
 [MIT License](LICENSE)
-
-
-<img src="PacMan1.png">
